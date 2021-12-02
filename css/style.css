@@ -42,7 +42,7 @@ ul {
 
 .header {
     background-image: url(/images/header-bg.jpg);
-    height: 150vh;
+    height: 100vh;
     background-size: cover;
     background-position: center 50px;
     background-repeat: no-repeat;
@@ -120,26 +120,52 @@ ul {
     background-repeat: no-repeat;
     text-align: right;
 }
-.video__text{
-font-family: Roboto Condensed;
-font-style: italic;
-font-weight: 300;
-font-size: 72px;
-line-height: 84px;
-color: #85CCDC;
-padding-top: 440px;
+
+.video__text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85CCDC;
+    padding-top: 440px;
+    text-align: right;
+margin-bottom: 40px;
 }
 
-.video__text span{
+.video__text span {
     display: block;
     padding-right: 285px;
+
 }
 
-.video__btn{
+.video__btn {
+    padding-left: 112px;
+    position: relative;
+    margin-right: 230px;
+}
+
+.video__btn {
     padding-left: 112px;
     position: relative;
 }
 
-.video__btn{
-  
+.video__btn::before{
+    content:'';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: -40px;
+    background-image: url(/images/youtube\ 1.svg);
+}
+
 /*section about end*/
+/*section season start*/
+.seasons__inner{
+
+}
+.seasons__item{
+
+}
+
+/*section season end*/
