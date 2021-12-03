@@ -129,7 +129,7 @@ ul {
     color: #85CCDC;
     padding-top: 440px;
     text-align: right;
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .video__text span {
@@ -144,13 +144,9 @@ margin-bottom: 40px;
     margin-right: 230px;
 }
 
-.video__btn {
-    padding-left: 112px;
-    position: relative;
-}
 
-.video__btn::before{
-    content:'';
+.video__btn::before {
+    content: '';
     position: absolute;
     width: 100px;
     height: 100px;
@@ -161,10 +157,35 @@ margin-bottom: 40px;
 
 /*section about end*/
 /*section season start*/
-.seasons__inner{
-
+.seasons__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px 75px;
+    counter-reset: number;
 }
-.seasons__item{
+
+
+.seasons__item {
+    width: 350px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    list-style: none;
+    position: relative;
+}
+
+.seasons__item::before {
+    content: '0'counter(number);
+    counter-increment: number;
+    position: absolute;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+    color: #600E09;
+    left: 0;
+    top: -72px;
+    z-index: -1;
 
 }
 
