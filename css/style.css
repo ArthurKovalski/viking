@@ -220,6 +220,25 @@ ul {
 
 
 /*section hero start*/
+.heroes__inner{
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.heroes__slider-img{
+    min-width: 775px;
+
+}
+
+.heroes__images {
+}
+.heroes__slider-text {
+}
+.heroes__text {
+    max-width: 350px;
+}
+.heroes__name {
+}
 
 /*section hero end*/
