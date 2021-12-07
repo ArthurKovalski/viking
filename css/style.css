@@ -163,6 +163,7 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px 75px;
     counter-reset: number;
+    padding-top: 50px;
 }
 
 
@@ -288,6 +289,15 @@ ul {
     background-size: cover;
     height: 90vh;
     position: relative;
+}
+
+.menu{
+    position: relative;
+}
+
+.page_logo{
+    position: absolute;
+    left: 0;
 }
 
 
