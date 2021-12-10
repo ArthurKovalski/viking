@@ -134,7 +134,7 @@ ul {
     font-size: 72px;
     line-height: 84px;
     color: #85CCDC;
-    padding-top: 440px;
+    padding-top: 45vh;
     text-align: right;
     margin-bottom: 40px;
 }
@@ -375,6 +375,11 @@ width: 80%;
    }
    .title{
        margin-bottom: 50px;
+   }
+
+   body{
+       font-size: 16px;
+       line-height: 19px;
    }
 }
 
