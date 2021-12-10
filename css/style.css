@@ -351,4 +351,42 @@ margin-right: 51px;
 
 
 /* start media */
+@media(max-width:1366px){
+.logo__img{
+width: 80%;
+}
+.menu__list-link{
+    font-size: 24px;
+    line-height: 32px;
+}
+.about__info{
+    width: 250px;
+}
+}
+
+
+@media(max-width:768px){
+   .about__inner{
+        display: block;
+   }
+   .section__page{
+       padding: 50px 0px;
+       
+   }
+   .title{
+       margin-bottom: 50px;
+   }
+}
+
+
+@media(max-width:640px){
+.menu__list{
+    display: none;
+}
+.logo{
+    padding-top: 25vh;  
+}
+
+}
+
 /* start media */
