@@ -166,7 +166,7 @@ ul {
 /*section season start*/
 .seasons__inner {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-gap: 100px 75px;
     counter-reset: number;
     padding-top: 50px;
@@ -365,6 +365,21 @@ width: 80%;
 }
 }
 
+@media(max-width:1200px){
+.heroes__inner{
+    display: block;
+}
+.heroes__slider-text{
+    max-width: 100%;
+    padding-top: 50px;
+}
+.heroes__slider-img{
+    max-width:100%;
+}
+}
+
+
+
 @media(max-width:1088px){
     .seasons__item{
         height: 340px;
@@ -422,18 +437,19 @@ grid-gap: 80px 35px;
     display: none;
 }
 .logo{
-    padding-top: 25vh;  
+    padding-top: 21vh;  
 }
 
-.seasons__item{
-    height: 203px;
-}
+
 
 }
 
 @media(max-width:414px){
-
-
+   .seasons__item{
+    height: 203px;
+} 
 }
+
+
 
 /* start media */
